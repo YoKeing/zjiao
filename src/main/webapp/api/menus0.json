@@ -1,0 +1,59 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/jiaowu/welcome.jsp"
+  },
+  "logoInfo": {
+    "title": "后台管理",
+    "image": "/jiaowu/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "",
+      "icon": "",
+      "child": [
+	    {
+          "title": "教师管理",
+          "href": "/jiaowu/teacher.jsp",
+          "icon": "fa fa-user-secret",
+          "target": "_self"
+        },
+    	{
+          "title": "学生管理",
+          "href": "/jiaowu/users.jsp",
+          "icon": "fa fa-users",
+          "target": "_self"
+	    }, 
+	    {
+          "title": "教材管理",
+          "href": "/jiaowu/jiaocai.jsp",
+          "icon": "fa fa-cogs",
+          "target": "_self"
+	    },
+	    {
+          "title": "考试管理",
+          "href": "/jiaowu/kaoshi.jsp",
+          "icon": "fa fa-adjust",
+          "target": "_self"
+	    },
+	    {
+          "title": "评价管理",
+          "href": "/jiaowu/pingjia.jsp",
+          "icon": "fa fa-comment-o",
+          "target": "_self"
+	    },
+        {
+          "title": "退出",
+          "href": "/jiaowu/logout",
+          "icon": "fa fa-window-close",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}

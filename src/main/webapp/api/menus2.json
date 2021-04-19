@@ -1,0 +1,71 @@
+{
+  "clearInfo": {
+    "clearUrl": "api/clear.json"
+  },
+  "homeInfo": {
+    "title": "首页",
+    "icon": "fa fa-home",
+    "href": "/jiaowu/welcome.jsp"
+  },
+  "logoInfo": {
+    "title": "后台管理",
+    "image": "/jiaowu/images/logo.png",
+    "href": ""
+  },
+  "menuInfo": {
+    "currency": {
+      "title": "",
+      "icon": "",
+      "child": [
+      	{
+          "title": "教材查看",
+          "href": "/jiaowu/jiaocai.jsp",
+          "icon": "fa fa-cogs",
+          "target": "_self"
+	    },
+      	{
+          "title": "考试查看",
+          "href": "/jiaowu/kaoshi.jsp",
+          "icon": "fa fa-adjust",
+          "target": "_self"
+	    },
+	    {
+          "title": "课程查看",
+          "href": "/jiaowu/kecheng.jsp",
+          "icon": "fa fa-building-o",
+          "target": "_self"
+       	},
+       	 {
+          "title": "我的选课",
+          "href": "/jiaowu/xuanke.jsp",
+          "icon": "fa fa-calendar-plus-o",
+          "target": "_self"
+       	},
+        {
+          "title": "我的实践课",
+          "href": "/jiaowu/shijian.jsp",
+          "icon": "fa fa-trophy",
+          "target": "_self"
+        },
+       	{
+          "title": "我的考勤",
+          "href": "/jiaowu/kaoqin.jsp",
+          "icon": "fa fa-calendar",
+          "target": "_self"
+       	},
+       	{
+          "title": "评价管理",
+          "href": "/jiaowu/pingjia.jsp",
+          "icon": "fa fa-comment-o",
+          "target": "_self"
+	    },
+        {
+          "title": "退出",
+          "href": "/jiaowu/logout",
+          "icon": "fa fa-window-close",
+          "target": "_self"
+        }
+      ]
+    }
+  }
+}
